@@ -43,7 +43,9 @@ const Home: NextPage = () => {
                 to deploy it.
               </div>
             </Link>
+
           </div>
+            <Link href="/admin" className="text-2xl text-white"> Admin</Link>
           <div className="flex flex-col items-center gap-2">
             <p className="text-2xl text-white">
               {hello.data ? hello.data.greeting : "Loading tRPC query..."}
